@@ -22,11 +22,11 @@ export default function Navbar() {
       <nav className="max-w-5xl mx-auto px-6 md:px-12 h-16 flex items-center justify-between">
         {/* Wordmark */}
         <Link
-          href="/"
-          className="text-sm font-mono font-semibold tracking-tight text-[var(--text)] hover:text-[var(--accent)] transition-colors"
-        >
-          MN
-        </Link>
+  href="/"
+  className="flex items-center justify-center w-9 h-9 rounded-full border border-[var(--accent)] text-[var(--text)] text-sm font-semibold hover:opacity-80 transition-opacity"
+>
+  MN
+</Link>
 
         <div className="flex items-center gap-3">
           {/* Desktop links */}
