@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── Theme tokens ─────────────────────────────────────────── */
+:root {
+  --bg:          #f8fafc;
+  --bg-surface:  #ffffff;
+  --bg-subtle:   #f1f5f9;
+  --text:        #0f172a;
+  --text-muted:  #64748b;
+  --accent:      #2563eb;
+  --accent-hover:#1d4ed8;
+  --border:      #e2e8f0;
+}
+
+.dark {
+  --bg:          #050c1a;
+  --bg-surface:  #0c1627;
+  --bg-subtle:   #111d35;
+  --text:        #f1f5f9;
+  --text-muted:  #94a3b8;
+  --accent:      #3b82f6;
+  --accent-hover:#60a5fa;
+  --border:      #1a2d4a;
+}
+
+/* ─── Base ──────────────────────────────────────────────────── */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+::selection {
+  background-color: var(--accent);
+  color: #ffffff;
+}
+
+/* ─── Scrollbar (subtle) ─────────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-muted);
+}
