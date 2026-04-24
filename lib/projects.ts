@@ -14,14 +14,13 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: 1,
-    name: "Holding Hands Home Health Care",
+    name: "Holding Care",
     description:
-      "A full-service web platform for a personal care assistance company in Maine. Currently rebuilding from WordPress into a modern stack — with scheduling, staff management, and a client-facing portal.",
-    // TODO: replace with the actual current WordPress URL
-    liveUrl: undefined,
-    githubUrl: "https://github.com/mohamedanoorr",
+      "Full-service website for a home health care company in Portland, Maine. Built with Next.js, TypeScript, and Tailwind CSS — featuring service pages, a careers section, and contact forms connected to Resend.",
+    liveUrl: "https://holdingcare.co",
+    githubUrl: "https://github.com/mohamedanoor/holding-care",
     tags: ["Next.js", "TypeScript", "Tailwind CSS", "Healthcare"],
-    status: "In Progress",
+    status: "Live",
   },
   // Add more projects here as they're completed:
   // {
