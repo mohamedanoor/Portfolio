@@ -31,6 +31,15 @@ export const projects: Project[] = [
     tags:["Python", "Flask", "PostgreSQL", "Claude AI", "JavaScript"],
     status: "Live",
   },
+  {
+    id: 3,
+    name: "Crescent Studio",
+    description: "Agency website for a Portland, Maine digital services company offering web design, development, SEO, and digital marketing. Built with Next.js and Tailwind CSS featuring dark/light mode toggle and contact form via Resend.",
+    liveUrl: "https://crescentstudio.co",
+    githubUrl: "https://github.com/mohamedanoor/Crescent-Studio",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Resend"],
+    status: "Live",
+}
   // Add more projects here as they're completed:
   // {
   //   id: 2,
